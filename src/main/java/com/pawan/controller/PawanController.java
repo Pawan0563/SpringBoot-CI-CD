@@ -5,7 +5,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 public class PawanController {
-	@GetMapping
+	@GetMapping("/system")
 	public String getMessage() {
 		return "Dabbang Chhora is Learning DevOps";
 	}
