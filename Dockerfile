@@ -1,5 +1,5 @@
 # Use Java 8 JDK base image
-FROM openjdk:8-jdk-alpine
+FROM openjdk:17-alpine
 
 # Expose the application port
 EXPOSE 8080
